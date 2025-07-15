@@ -70,7 +70,7 @@ Pliki nagłówkowe dla programistów używających %{name}-qt6.
 
 %prep
 %setup -q
-#%patch0
+#%%patch0
 
 %build
 %if %{with qt5}
